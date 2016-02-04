@@ -1,0 +1,21 @@
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\MainWindow.g.cs
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\App.g.cs
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF_MarkupCompile.cache
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF_MarkupCompile.lref
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\SavingsWPF.exe.config
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\SavingsWPF.exe
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\SavingsWPF.pdb
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\System.Data.SQLite.dll
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\System.Data.SQLite.pdb
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\bin\Debug\System.Data.SQLite.xml
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\App.baml
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\MainWindow.baml
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.g.resources
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.exe
+c:\users\alex\documents\visual studio 2015\Projects\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.pdb
+C:\Users\Alex\Documents\GitHubVisualStudio\SavingsWPF\SavingsWPF\bin\Debug\SavingsWPF.exe.config
+C:\Users\Alex\Documents\GitHubVisualStudio\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.exe
+C:\Users\Alex\Documents\GitHubVisualStudio\SavingsWPF\SavingsWPF\obj\Debug\SavingsWPF.pdb
