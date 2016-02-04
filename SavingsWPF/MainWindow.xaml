@@ -29,7 +29,7 @@
             </DataGrid.RenderTransform>
         </DataGrid>
         <Grid Grid.Column="2" HorizontalAlignment="Left" Height="100" Margin="277,189,-88,0" VerticalAlignment="Top" Width="100"/>
-        <DataGrid x:Name="monthlyDataGridView" Margin="20,250,21,20" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Foreground="Black" HorizontalGridLinesBrush="White" VerticalGridLinesBrush="White" AutoGeneratingColumn="yearlyDataGridView_AutoGeneratingColumn" ColumnWidth="Auto" LoadingRow="yearlyDataGridView_LoadingRow" ColumnHeaderHeight="20" Grid.Column="1">
+        <DataGrid x:Name="monthlyDataGridView" Margin="20,250,21,20" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Foreground="Black" HorizontalGridLinesBrush="White" VerticalGridLinesBrush="White" ColumnWidth="Auto" LoadingRow="yearlyDataGridView_LoadingRow" ColumnHeaderHeight="20" Grid.Column="1" AutoGeneratingColumn="yearlyDataGridView_AutoGeneratingColumn">
             <DataGrid.Resources>
                 <Style TargetType="{x:Type DataGridColumnHeader}">
                     <Setter Property="Background" Value="#FF636363" />
@@ -45,7 +45,7 @@
                 </TransformGroup>
             </DataGrid.RenderTransform>
         </DataGrid>
-        <DataGrid x:Name="wantedDataGridView" Margin="20,250,20,20" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Foreground="Black" HorizontalGridLinesBrush="White" VerticalGridLinesBrush="White" AutoGeneratingColumn="yearlyDataGridView_AutoGeneratingColumn" ColumnWidth="Auto" LoadingRow="yearlyDataGridView_LoadingRow" ColumnHeaderHeight="20" Grid.Column="2">
+        <DataGrid x:Name="wantedDataGridView" Margin="20,250,20,20" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Foreground="Black" HorizontalGridLinesBrush="White" VerticalGridLinesBrush="White" ColumnWidth="Auto" LoadingRow="yearlyDataGridView_LoadingRow" ColumnHeaderHeight="20" Grid.Column="2">
             <DataGrid.Resources>
                 <Style TargetType="{x:Type DataGridColumnHeader}">
                     <Setter Property="Background" Value="#FF636363" />
@@ -61,6 +61,8 @@
                 </TransformGroup>
             </DataGrid.RenderTransform>
         </DataGrid>
+        <Label x:Name="yearlyTotal" Content="yearlyTotal" HorizontalAlignment="Left" Margin="76,220,0,0" VerticalAlignment="Top" Width="135" Foreground="White"/>
+        <Label x:Name="yearlyTotalLabel" Content="Yearly:" HorizontalAlignment="Left" Margin="24,220,0,0" VerticalAlignment="Top" Width="47" Foreground="White" FontWeight="Bold"/>
 
     </Grid>
 </Window>

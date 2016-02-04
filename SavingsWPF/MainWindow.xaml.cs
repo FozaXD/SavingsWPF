@@ -28,7 +28,7 @@ namespace SavingsWPF
 
 
         #region Variables
-
+        DataTable yearlyTable = CreateDataTable();
         public static string addType;
         public static string editType;
         decimal sumYearly = 0.00m;
@@ -56,6 +56,7 @@ namespace SavingsWPF
             // Startup1();
 
             Draw();
+            GetYearlyTotal();
             // DrawUserInfo();
         }
 
@@ -66,6 +67,16 @@ namespace SavingsWPF
             DrawWantedDataGridView();
             //        GetTotals();
             //        GetCategoryCounts();
+        }
+
+        public void GetYearlyTotal()
+        {
+            double sum = 0;
+            foreach (var row in yearlyDataGridView.Items)
+            {
+                sum += double.Parse(row[3].ToString());
+            }
+            yearlyTotal.Content = sum.ToString()
         }
 
         public void DrawYearlyDataGridView()
@@ -158,11 +169,11 @@ namespace SavingsWPF
                 (e.Column as DataGridTextColumn).Binding.StringFormat = "C2";
                 (e.Column as DataGridTextColumn).Width = 100;
             }
-
         }
         private void yearlyDataGridView_LoadingRow(object sender, DataGridRowEventArgs e)
         {
             e.Row.Background = (SolidColorBrush)(new BrushConverter().ConvertFrom("#bfbfbf"));
+            e.Row.Height = 22;
         }
     }
 }
